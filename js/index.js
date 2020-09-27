@@ -1,4 +1,4 @@
-$(function () {
+﻿$(function () {
     $('.item').on('click', 'a', function () {
         var page = $(this).text();
         console.log(page);
@@ -31,3 +31,4 @@ $(function () {
     getNewsList();
 
 })
+console.log("111");
